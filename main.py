@@ -2,7 +2,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import time
 
-TOKEN = os.getenv("token.env")
+TOKEN = ("8289958887:AAFDDqcqERsdQMI0dQLS-aqYP-m2qIRZwOs")
 bot = telebot.TeleBot(TOKEN)
 
 vouches = 245
