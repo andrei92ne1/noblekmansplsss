@@ -1,9 +1,8 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-import random
 import time
 
-TOKEN = ""
+TOKEN = os.getenv("token.env")
 bot = telebot.TeleBot(TOKEN)
 
 vouches = 245
